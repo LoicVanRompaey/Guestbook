@@ -42,4 +42,8 @@
 
 
   }
-]{"name":"TEST 3","message":"I'M GOING FULL TORGUE HERE!!!","title":"SUPERDUPER IMPORTANT TEST!!","date":"2019-10-22 15:40:52"}
+
+] {"name":"TEST 3","message":"I'M GOING FULL TORGUE HERE!!!","title":"SUPERDUPER IMPORTANT TEST!!","date":"2019-10-22 15:40:52"}
+
+//arrays geschreven via input staan op de verkeerde plaats (buiten de array) (ga comment deleten als bug is opgelost)
+

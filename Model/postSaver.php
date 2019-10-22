@@ -15,7 +15,7 @@ class postSaver
         $writeMessage = json_encode($arrayMessage);
 
         $fh = fopen('assets/messages.json', 'a+');
-        fwrite($fh, $writeMessage);  //fopen permission denied error??
+        fwrite($fh, $writeMessage);  //schrijft array in verkeerd level. (zie error in messages.json)
         fclose($fh);
 
         //APPEND => 1 ding toevoegen aan file/array
