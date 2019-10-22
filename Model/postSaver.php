@@ -13,9 +13,9 @@ class postSaver
                               'date' => $date);
 
         $writeMessage = json_encode($arrayMessage);
-        $file = "messages.json";
-        $fh = fopen($file, 'a');
-        fwrite($fh, $writeMessage);
+
+        $fh = fopen('assets/messages.json', 'a+');
+        fwrite($fh, $writeMessage);  //fopen permission denied error??
         fclose($fh);
 
         //APPEND => 1 ding toevoegen aan file/array
